@@ -1,0 +1,111 @@
+.headertext {
+	font-family: 'Pinyon Script', cursive;
+	display: flex;
+	justify-content: center;
+}
+
+.toprow {
+	display: flex;
+	justify-content: center;
+	border-top-style: solid;
+	border-top-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+}
+
+h2 {
+	font-family: 'IM Fell Great Primer', serif;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+.waterimg {
+	width: 500px;
+	height: 250px;
+	display: flex;
+}
+
+.headline {
+	align-items: flex-start;
+}
+
+.newsbox {
+	height: 450px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 7px;
+}
+
+.topleft {
+	width: 25%;
+	border-left: solid 1px;
+	border-right: solid 1px;
+}
+
+.topmiddle {
+	width: 50%;
+	border-left: none 1px;
+	border-right: none 1px;
+}
+
+.topright {
+	width: 25%;
+	border-left: solid 1px;
+	border-right: solid 1px;
+}
+
+.bottombox {
+    height: 349px;
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.bottomrow {
+    height: 349px;
+    display: flex;
+    justify-content: center;
+    border-bottom: solid 2px;
+}
+
+.bottomright {
+    width: 75%;
+    display: flex;
+    align-items: flex-start;
+    border-right: solid 1px;
+    border-left: solid 1px;
+}
+
+.bottomleft {
+    width: 25%;
+    border-right: solid 1px;
+    border-left: solid 1px;
+}
+
+.politics {
+    background-color:#41f47f;
+}
+
+.tech {
+    background-color:#41f4d9;
+}
+
+.local {
+    background-color: #4286f4;
+}
+
+.opinion {
+    background-color:  #acf441;
+}
+
+.sports {
+    background-color: #f4a641;
+}
+
+.picker {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
